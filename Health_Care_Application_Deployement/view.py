@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify, render_template
 #@app.route('/hello')
 #def hello():
  #   return 'Hello World!'
-classifier = pickle.load(open('xgboost_heart_disease.pkl', 'rb'))
+classifier = pickle.load(open('./xgboost_heart_disease.pkl', 'rb'))
 
 
 # Load the Random Forest CLassifier model

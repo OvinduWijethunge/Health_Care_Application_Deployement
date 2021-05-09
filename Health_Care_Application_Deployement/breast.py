@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify, render_template
 #filename = 'random_forest_regression_model_v2.pkl'
 #classifier = pickle.load(open(filename, 'rb'))
 
-classifier = pickle.load(open('random_forest_cancer.pkl', 'rb'))
+classifier = pickle.load(open('./random_forest_cancer.pkl', 'rb'))
 
 
 # Load the Random Forest CLassifier model
