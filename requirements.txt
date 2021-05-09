@@ -98,7 +98,6 @@ pycrypto==2.6.1
 pycurl==7.43.0.6
 pydub==0.24.1
 Pygments==2.7.4
-pygpu==0.7.6
 pynndescent==0.5.2
 pyreadline==2.1
 pytest==6.2.3
