@@ -103,7 +103,6 @@ pyreadline==2.1
 pytest==6.2.3
 python-dateutil==2.8.1
 pytube==10.4.1
-pywin32==300
 pywinpty==0.5.7
 PyYAML==5.4.1
 pyzmq==22.0.2
