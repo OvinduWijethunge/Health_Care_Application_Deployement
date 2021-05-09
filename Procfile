@@ -1,0 +1,1 @@
+web: gunicorn --chdir Health_Care_Application_Deployement __init__:app
