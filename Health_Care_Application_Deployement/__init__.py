@@ -15,11 +15,11 @@ def home():
     return render_template('index.html')
 
 
-@app.route("/heart")
+@app.route("/heart", methods=['POST', 'GET'])
 def heart():
     return render_template("heart.html")
     
-@app.route("/breast")
+@app.route("/breast", methods=['POST', 'GET'])
 def breast():
     return render_template("breast.html")    
 
