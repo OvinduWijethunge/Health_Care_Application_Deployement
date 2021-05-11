@@ -23,7 +23,7 @@ def ValuePredictor(to_predict_list, size):
 
 
 
-@heart_bp.route('/predict_breast', methods = ["POST"])
+@heart_bp.route('/predict_heart', methods = ["POST"])
 def predict_heart():
     result = 0
     if request.method == "POST":
