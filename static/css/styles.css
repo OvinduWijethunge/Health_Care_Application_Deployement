@@ -1,4 +1,9 @@
-  body {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.element {
        padding: 30px;
 	position: relative;
 	background: linear-gradient(0.25turn, #f3fa96, #faecb4, #f5e7c1);
@@ -16,6 +21,34 @@
 	100%{
 		background-position: 0 50%;
 	}
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("home_img.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
