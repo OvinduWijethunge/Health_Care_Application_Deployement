@@ -38,17 +38,19 @@ body, html {
 }
 
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
@@ -93,4 +95,30 @@ body, html {
 	font-size: 12px;
     font-family: Gabriola;
 }
+
+
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger{
+    color: #ff0000;
+}
+
+.safe{
+    color: green;
+}
+
+.gif{
+	width: 50%;
+}
+
+.gif1{
+	width: 35%;
+    	margin: 10px 0;
+}
+
+
+
 

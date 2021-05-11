@@ -33,9 +33,6 @@ def predict_liver():
         if(len(to_predict_list)==7):
             result = ValuePredictor(to_predict_list,7)
     
-    if(int(result)==1):
-        prediction = "probobly you are in a danger zone... meet a doctor immediatly"
-    else:
-        prediction = "Nice!! probably you are helthy!!"
-    return(render_template("result.html", prediction_text=prediction))
+    
+    return(render_template("result.html", prediction_text=result))
     #return 'wwwwwwwwwwwwwoooooooooooooo'    
