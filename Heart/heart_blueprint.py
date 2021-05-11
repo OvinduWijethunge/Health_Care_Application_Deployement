@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Blueprint, request, jsonify
 import pickle
-import numpy as np
-import pandas as pd
+
+
 
 #home_bp = Blueprint('home_bp', __name__, template_folder='templates',static_folder='static')
 heart_bp = Blueprint('heart_bp', __name__ ,template_folder='templates',static_folder='static')

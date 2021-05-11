@@ -1,7 +1,6 @@
 from flask import Flask, render_template, Blueprint, request, jsonify
 import pickle
-import numpy as np
-import pandas as pd
+
 
 #home_bp = Blueprint('home_bp', __name__, template_folder='templates',static_folder='static')
 liver_bp = Blueprint('liver_bp', __name__ ,template_folder='templates',static_folder='static')
