@@ -34,5 +34,5 @@ def predict_liver():
             result = ValuePredictor(to_predict_list,7)
     
     
-    return(render_template("result.html", prediction_text=result))
+    return(render_template("result.html", prediction=result))
     #return 'wwwwwwwwwwwwwoooooooooooooo'    
