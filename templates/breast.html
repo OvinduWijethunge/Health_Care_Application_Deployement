@@ -1,20 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+        <title>Health Care App</title>
+      <link rel="icon" href="../static/img/icoon.png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="../static/img/health.ico">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    
-    <title>Breast Cancer Prediction</title>
+   
+    
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse  navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -36,7 +42,9 @@
     </nav>
       <!--Mask-->
       <div id="intro" class="container-fluid view ">
-        <h1 class="text-center text-capitalize pt-5">Know your chances of getting Breast Cancer in one Click!</h1>
+           <br>
+          <br>
+        <h1 class="text-center text-capitalize pt-5">JKnow your BREAST situation..from here</h1>
         <hr class="w-75 mx-auto pt-5">
         <div class="row mb-5">
           <div class="col-lg-6 col-md-6 col-12 my-auto">
@@ -67,13 +75,28 @@
                 <label for="concavity_mean">Mean of the Concavity</label>
                 <input class="form-control" type="number" id="concavity_mean" name="concavity_mean" required="required" placeholder="Mean of the concavity">
               </div>
-              <button type="submit" class="btn btn-danger">Predict</button>
+              <button type="submit" class="btn btn-primary">Predict</button>
             </form>
           </div>
         </div>
       </div>
       <!--/.Mask-->
     </header>
+       <br>
+      <br>
+      <br>
+      <br>
+      <div class="container-fluid">
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/OvinduWijethunge"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/ovinduwijethunge/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.instagram.com/ovindu_vesuvius/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Ovindu Wijethunge</p>
+       </div>
+      </div>
+      
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

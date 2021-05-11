@@ -1,0 +1,63 @@
+  body {
+       padding: 30px;
+	position: relative;
+	background: linear-gradient(0.25turn, #f3fa96, #faecb4, #f5e7c1);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+	}
+
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+
+.text-center{
+     
+    color: black;
+	font-family: 'Franklin Gothic Medium';
+	font-size: 35px;
+	font-weight: normal;
+
+}
+
+
+
+* Contact */
+.contact{
+          padding-top: 1px;
+}
+.contact-icon{
+	color: #ffffff;
+	padding-top: 4px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  height: 6%;
+  background: linear-gradient(0.25turn, #1f2b16, #162b2b, #2b1616);
+  text-align:center;
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 12px;
+    font-family: Gabriola;
+}
+

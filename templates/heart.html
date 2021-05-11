@@ -1,17 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
+       <title>Health Care App</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--<link rel="icon" href="../static/img/health.ico">-->
+    <link rel="icon" href="../static/img/icoon.png">
     <!-- Bootstrap CSS -->
+      <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
       
-    <title>Check Heart Disease</title>
+    
+      
   </head>
   <body>
     <header>
@@ -36,24 +41,15 @@
   </div>
     </nav>
         
-        
-        
-        
-        
-        
-        
-        
+         
       <!--Mask-->
-      <div id="intro" class="container-fluid view ">
+      <div  class="container-fluid view ">
           <br>
           <br>
-          <br>
-          <br>
-        <h1 class="text-center text-capitalize pt-5">It is time to take care of your heart..</h1>
+        <h1 class="text-center text-capitalize pt-5">Know your HEART situation..from here</h1>
         <hr class="w-75 mx-auto pt-5">
         <div class="row mb-5">
-          <div class="col-lg-6 col-md-6 col-12 my-auto">
-           <!-- <img src="../static/img/.jpg" class="float-left"> -->
+          <div  class="col-lg-6 col-md-6 col-12 my-auto">
           </div>
           <div class="col-lg-6 col-md-6 col-12">
             <form action="{{ url_for('heart_bp.predict_heart')}}" method="post">
@@ -156,13 +152,36 @@
             	</select>
               </div>
                 
-              <button type="submit" class="btn btn-danger">Predict</button>
+              <button type="submit" class="btn btn-primary">Predict</button>
             </form>
           </div>
         </div>
+          
+         
+          
       </div>
+        
+         
       <!--/.Mask-->
     </header>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container-fluid">
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/OvinduWijethunge"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/ovinduwijethunge/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.instagram.com/ovindu_vesuvius/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Ovindu Wijethunge</p>
+       </div>
+      </div>
+      <!-- Footer -->
+      
+      
+      
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="../static/js/vendor/popper.min.js"></script>

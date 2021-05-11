@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Health Care App</title>
+    <link rel="icon" href="../static/img/icoon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
 
-<nav class="navbar navbar-inverse ">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,8 +31,25 @@
         <li class="active"><a href="{{ url_for('diabetes_bp.diabetes') }}">Diabetes</a></li>
         <li class="active"><a href="{{ url_for('breast_bp.breast') }}">Breast Cancer</a></li>
         <li class="active"><a href="{{ url_for('liver_bp.liver') }}">Liver Disease</a></li>
-        <button class="btn btn-danger navbar-btn">Button</button>
+        
       </ul>
     </div>
   </div>
     </nav>
+    
+     <br>
+      <br>
+      <br>
+      <br>
+      <div class="container-fluid">
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/OvinduWijethunge"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/ovinduwijethunge/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.instagram.com/ovindu_vesuvius/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Ovindu Wijethunge</p>
+       </div>
+      </div>
+    </body>
+</html>
