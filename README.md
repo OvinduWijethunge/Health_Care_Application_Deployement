@@ -1,3 +1,15 @@
+# Health Care App - Deployment
+<p align=left>
+<img src="https://img.shields.io/badge/Type-Classification-blue"/> 
+<img src="https://img.shields.io/badge/Python-3.9-brightgreen"/>
+<img src="https://img.shields.io/badge/DataSet-Kaggle-brightgreen"/> 
+<p/>
+<br>
+<p align=center>
+<!-- <img src="https://media.giphy.com/media/WnBbhOLj5v1LW6NK1R/giphy.gif" width="500px" height="300px"> -->
+</p>
+<br>
+<br>
 • This project predicts whether a person has a below diseases or not and it is need to know particular disease features for do the prediction.
       
       1. Heart Disease
@@ -10,10 +22,10 @@
 
 • Data set got from kaggle, if you want to inspect it just click below links for each diseases. 
 
-  Link for Heart Disease Dataset  = _https://www.kaggle.com/johnsmith88/heart-disease-dataset_
-  Link for Diabetes Disease Dataset = _https://www.kaggle.com/uciml/pima-indians-diabetes-database_
-  Link for Liver Disease Dataset = _https://www.kaggle.com/uciml/indian-liver-patient-records_
-  Link for Kidney Disease Dataset = _https://www.kaggle.com/mansoordaku/ckdisease_
+  Link for Heart Disease Dataset  = _https://www.kaggle.com/johnsmith88/heart-disease-dataset_ <br>
+  Link for Diabetes Disease Dataset = _https://www.kaggle.com/uciml/pima-indians-diabetes-database_ <br>
+  Link for Liver Disease Dataset = _https://www.kaggle.com/uciml/indian-liver-patient-records_ <br>
+  Link for Kidney Disease Dataset = _https://www.kaggle.com/mansoordaku/ckdisease_ <br>
     
 
 • You can see deployed model in heroku , use below link for reach to deployed model:<br />
@@ -39,7 +51,7 @@ This project has four major parts :
 4. templates - This folder contains the HTML template to allow user to enter required detail and displays the predicted diseasess.
 
 
-### Running the project in flask API
-type flask run for start your server 
-then copy the given url and paste it in your browser.
-then input valid inputs do predictions.
+### Running the project in FLASK
+type flask run for start your server. (if you want to enable debugger mode just type set FLASK_ENV=development as the first CLI command) <br>
+then copy the given url and paste it in your browser. <br>
+then input valid inputs do predictions. <br>
