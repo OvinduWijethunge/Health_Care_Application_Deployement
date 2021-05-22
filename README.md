@@ -15,7 +15,7 @@
       1. Heart Disease
       2. Diabetes
       3. Liver Disease
-      4. Kidney Disease
+      4. Breast Cancer
     
  
 • This repository consists of files required to deploy a ___WEB APPLICATION___ created with ___Flask___ on ___Heroku___ platform.
@@ -25,7 +25,7 @@
   Link for Heart Disease Dataset  = _https://www.kaggle.com/johnsmith88/heart-disease-dataset_ <br>
   Link for Diabetes Disease Dataset = _https://www.kaggle.com/uciml/pima-indians-diabetes-database_ <br>
   Link for Liver Disease Dataset = _https://www.kaggle.com/uciml/indian-liver-patient-records_ <br>
-  Link for Kidney Disease Dataset = _https://www.kaggle.com/mansoordaku/ckdisease_ <br>
+  Link for breast cancer Dataset = _https://www.kaggle.com/uciml/breast-cancer-wisconsin-data_ <br>
     
 
 • You can see deployed model in heroku , use below link for reach to deployed model:<br />
